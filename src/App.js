@@ -1,7 +1,11 @@
+import Header from "./components/Header/Header";
+
 const App = () => {
   return (
-    <h1>React Dashboard</h1>
+    <div>
+      <Header />
+    </div>
   );
-}
+};
 
 export default App;

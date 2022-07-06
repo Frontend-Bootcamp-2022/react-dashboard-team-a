@@ -1,0 +1,83 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 35px;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c557a;
+}
+
+.header-settings {
+  display: flex;
+  gap: 60px;
+}
+
+.search-bar {
+  width: 25%;
+  height: 25px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  background-color: #f1f2f7;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 12px;
+}
+
+.search-input {
+  background-color: #f1f2f7;
+  border: none;
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.button-container button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.user-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.user-email {
+  font-size: 12px;
+  color: #8b8b8b;
+}
+
+/* .button-container::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #ff285c;
+  position: absolute;
+  top: 12px;
+  right: 322px;
+  border-radius: 50%;
+  border: 4px solid #ffff;
+} */
