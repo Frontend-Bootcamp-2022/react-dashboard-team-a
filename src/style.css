@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+.card{
+    width: 495px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: ;
+    border: 1px solid #E5E5E5;
+    float: left;
+    margin: 10px;
+}
+
+.card-heading{
+    color: #3C557A;
+   font-family: 'Roboto';
+   font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    line-height: 21px;
+    position: relative;
+    left: 4.85%;
+    right: 58.38%;
+    top: 8%;
+    bottom: 85%;
+}
+
+.started{
+    position: relative;
+    width: 39px;
+    height: 14px;
+    top: 38px;
+    left: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 14px;
+    color: #717986;
+}
+
+.started-date{
+    position: relative;
+    width: 100px;
+    height: 15px;
+    left: 4.85%;
+    right: 80.4%;
+    top: 36px;
+    bottom: 60%;
+
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #717986;
+
+  
+}
+.card-info{
+
+}
+
+.status{
+    position: relative;
+    left: 34.34%;
+    right: 58.59%;
+
+    bottom: 25.7px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+
+    color: #717986;
+}
+
+li{
+    position: relative;
+    left: 31.34%;
+    right: 64.04%;
+    top: 36.33%;
+    bottom: 27.5px;
+    color: #F0BB00;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.card-members{
+    width: 32px;
+    height: 32px;
+    left: 520px;
+    top: 387px;
+    margin: 10px;
+
+    border-radius:20px ;
+    border: 1px solid #8B8B8B;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #8B8B8B;
+    font-weight: 500;
+}
+
+.card-progress{
+    position: relative;
+   
+
+bottom: 90px;
+
+margin: 10px;
+background: ;
+
+}
+
+.progress-bar-empty{
+    position: relative;
+    width: 439px;
+    height: 8px;
+    border-radius: 75px;
+    top: 8px;
+
+}
+
+.progress-bar{
+    position: relative;
+    width: 314px;
+    height: 8px;
+
+background: #1BE3A7;
+border-radius: 75px;
+
+}
+.progress-text{
+    width: 53px;
+height: 15px;
+
+
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+
+color: #717986;
+}
+.precent{
+    position: relative;
+    left: 363px;
+}
+
+.card-data{
+    position: relative;
+    width: 148px;
+    height: 70px;
+    left: 300px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #F9F9F9;;
+    border-radius: 7px;
+}
+
+.data-info-1{
+    font-family: 'Roboto';
+    position: relative;
+    line-height: 4px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.data-info-2{
+    font-family: 'Roboto';
+    text-align: center;
+    position: relative;
+    line-height: 4px;
+    margin-left: 15px;
+}
+
+.data-number{
+    color: #3C557A;
+}
+.data-text{
+    color: #717986;
+}
+
+.vertical-line{
+    position: relative;
+    width: 2px;
+height: 45px;
+top: 12px;
+
+
+background-color:  #CDDCEE;
+transform: ;
+}
