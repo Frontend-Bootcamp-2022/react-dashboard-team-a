@@ -18,7 +18,8 @@
       "picture":{
         "large":"https://randomuser.me/api/portraits/women/38.jpg",
         "medium":"https://randomuser.me/api/portraits/med/women/38.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/38.jpg"},
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/38.jpg"
+      },
       "phone": "1-770-736-8031 x56442",
       "website": "hildegard.org",
       "company": {
@@ -43,9 +44,11 @@
           "lng": "-34.4618"
         }
       },
-      "picture":{"large":"https://randomuser.me/api/portraits/men/51.jpg",
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/men/51.jpg",
         "medium":"https://randomuser.me/api/portraits/med/men/51.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/51.jpg"},
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/51.jpg"
+      },
       "phone": "010-692-6593 x09125",
       "website": "anastasia.net",
       "company": {
@@ -70,9 +73,11 @@
           "lng": "-47.0653"
         }
       },
-      "picture":{"large":"https://randomuser.me/api/portraits/men/53.jpg",
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/men/53.jpg",
         "medium":"https://randomuser.me/api/portraits/med/men/53.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/53.jpg"},
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/53.jpg"
+      },
       "phone": "1-463-123-4447",
       "website": "ramiro.info",
       "company": {
@@ -100,7 +105,8 @@
       "picture":{
         "large":"https://randomuser.me/api/portraits/women/37.jpg",
         "medium":"https://randomuser.me/api/portraits/med/women/37.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/37.jpg"},
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/37.jpg"
+      },
       "phone": "493-170-9623 x156",
       "website": "kale.biz",
       "company": {
@@ -128,7 +134,8 @@
       "picture":{
         "large":"https://randomuser.me/api/portraits/women/61.jpg",
         "medium":"https://randomuser.me/api/portraits/med/women/61.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/61.jpg"},
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/61.jpg"
+      },
       "phone": "(254)954-1289",
       "website": "demarco.info",
       "company": {
@@ -156,7 +163,8 @@
       "picture":{
         "large":"https://randomuser.me/api/portraits/women/42.jpg",
         "medium":"https://randomuser.me/api/portraits/med/women/42.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/42.jpg"},
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/42.jpg"
+      },
       "phone": "1-477-935-8478 x6430",
       "website": "ola.org",
       "company": {
@@ -184,7 +192,8 @@
       "picture":{
         "large":"https://randomuser.me/api/portraits/men/97.jpg",
         "medium":"https://randomuser.me/api/portraits/med/men/97.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/97.jpg"},
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/97.jpg"
+      },
       "phone": "210.067.6132",
       "website": "elvis.io",
       "company": {
@@ -212,7 +221,8 @@
       "picture":{
         "large":"https://randomuser.me/api/portraits/men/26.jpg",
         "medium":"https://randomuser.me/api/portraits/med/men/26.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/26.jpg"},
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/26.jpg"
+      },
       "phone": "586.493.6943 x140",
       "website": "jacynthe.com",
       "company": {
@@ -240,7 +250,8 @@
       "picture":{
         "large":"https://randomuser.me/api/portraits/women/38.jpg",
         "medium":"https://randomuser.me/api/portraits/med/women/38.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/38.jpg"},
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/38.jpg"
+      },
       "phone": "(775)976-6794 x41206",
       "website": "conrad.com",
       "company": {
@@ -268,7 +279,8 @@
       "picture":{
         "large":"https://randomuser.me/api/portraits/men/42.jpg",
         "medium":"https://randomuser.me/api/portraits/med/men/42.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/42.jpg"},
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/42.jpg"
+      },
       "phone": "024-648-3804",
       "website": "ambrose.net",
       "company": {
