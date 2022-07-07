@@ -80,7 +80,7 @@
     color: #717986;
 }
 
-li{
+.on-hold{
     position: relative;
     left: 31.34%;
     right: 64.04%;
@@ -94,14 +94,34 @@ li{
     font-size: 13px;
     line-height: 15px;
 }
+.active{
+    position: relative;
+    bottom: 70px;
+    color: #03eb7f;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.inactive{
+    position: relative;
+    bottom: 70px;
+    color: #eb1303;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+}
 
 .card-members{
+    position: relative;
     width: 32px;
     height: 32px;
-    left: 520px;
-    top: 387px;
+    top: 30px;
     margin: 10px;
-
     border-radius:20px ;
     border: 1px solid #8B8B8B;
     display:flex;
@@ -114,10 +134,7 @@ li{
 
 .card-progress{
     position: relative;
-   
-
 bottom: 90px;
-
 margin: 10px;
 background: ;
 
@@ -136,16 +153,14 @@ background: ;
     position: relative;
     width: 314px;
     height: 8px;
-
-background: #1BE3A7;
-border-radius: 75px;
-
+    background: #1BE3A7;
+    border-radius: 75px;
 }
 .progress-text{
-    width: 53px;
+width: 53px;
 height: 15px;
-
-
+position: relative;
+top: 20px;
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 13px;
@@ -154,8 +169,8 @@ line-height: 15px;
 color: #717986;
 }
 .precent{
-    position: relative;
-    left: 363px;
+position: relative;
+left: 363px;
 }
 
 .card-data{
@@ -199,8 +214,5 @@ color: #717986;
     width: 2px;
 height: 45px;
 top: 12px;
-
-
 background-color:  #CDDCEE;
-transform: ;
 }

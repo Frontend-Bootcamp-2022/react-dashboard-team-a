@@ -8,7 +8,7 @@ function Card(props){
 
     return (
         <div className="card">
-            <CardInfo date={props.date}/>
+            <CardInfo date={props.date} status={props.status} />
         
             <div className="card-progress">
             <div className="card-members">

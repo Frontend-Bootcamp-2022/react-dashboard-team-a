@@ -1,6 +1,21 @@
 import React from "react";
 
+
+
+
 function CardInfo(props){
+    let className = ""
+    let status=""
+    if(props.status =="On Hold"){
+        className = "on-hold"
+        status="Status"
+    }else if (props.status=="Active"){
+    className="active"
+    
+    }else{
+        className="inactive"
+        
+    }
 
     return (
 
@@ -12,9 +27,9 @@ function CardInfo(props){
             <div className="card-stats">
                 <h4 className="started">Started</h4>
                 <p className="started-date">{props.date}</p>
-                <h4 className="status">Status</h4>
+                <h4 className="status" >{status}</h4>
                 <ul>
-                    <li>On Hold</li>
+                    <li className={className}>{props.status}</li>
                 </ul>
             </div>
 
