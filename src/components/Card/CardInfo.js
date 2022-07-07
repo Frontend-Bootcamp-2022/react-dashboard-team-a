@@ -1,4 +1,4 @@
-import React from "react";
+
 
 
 
@@ -6,9 +6,11 @@ import React from "react";
 function CardInfo(props){
     let className = ""
     let status=""
+    let infoStatus="card-info-2";
     if(props.status =="On Hold"){
         className = "on-hold"
         status="Status"
+        infoStatus="card-info"
     }else if (props.status=="Active"){
     className="active"
     
@@ -16,14 +18,16 @@ function CardInfo(props){
         className="inactive"
         
     }
+    
 
     return (
 
-        <div className="card-info">
+    <div>
             <div className="card-heading">
                 <h2> Project Title goes here</h2>
             </div>
 
+         <div className={infoStatus}>
             <div className="card-stats">
                 <h4 className="started">Started</h4>
                 <p className="started-date">{props.date}</p>
@@ -35,21 +39,22 @@ function CardInfo(props){
 
             <div className="card-data">
                 <div className="data-info-1">
-                <h2 className="data-number">14</h2>
+                <h2 className="data-number">{props.tasks}</h2>
                 <p className="data-text">Tasks</p>
                 </div>
 
                 <div className="vertical-line"></div>
                     <div className="data-info-2">
-                        <h2 className="data-number">4</h2>
+                        <h2 className="data-number">{props.users}</h2>
                         <p className="data-text">Users</p>
                     </div>
                 </div>
    
             </div>
+    </div>
 
 
-    )
+)
 
 }
 

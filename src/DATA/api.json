@@ -9,7 +9,7 @@
         "medium":"https://randomuser.me/api/portraits/med/women/38.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/women/38.jpg"
       },
-      "progress":"67%"
+      "progress":67
       },
     {
 
@@ -22,7 +22,7 @@
         "medium":"https://randomuser.me/api/portraits/med/men/51.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/men/51.jpg"
       },
-      "progress":"0%"
+      "progress":0
 
     },
     {
@@ -36,7 +36,7 @@
         "medium":"https://randomuser.me/api/portraits/med/men/53.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/men/53.jpg"
       },
-      "progress":"32%"
+      "progress":32
       
     },
     {
@@ -50,7 +50,7 @@
         "medium":"https://randomuser.me/api/portraits/med/women/37.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/women/37.jpg"
       },
-    "progress":"7%"
+    "progress":7
      
     },
     {
@@ -64,7 +64,7 @@
         "medium":"https://randomuser.me/api/portraits/med/women/61.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/women/61.jpg"
       },
-      "progress":"0%"
+      "progress":0
       
      
     },
@@ -78,7 +78,7 @@
         "medium":"https://randomuser.me/api/portraits/med/women/42.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/women/42.jpg"
       },
-     "progress":"97%"
+     "progress":97
     },
     {
       "id": 7,
@@ -90,7 +90,7 @@
         "medium":"https://randomuser.me/api/portraits/med/men/97.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/men/97.jpg"
       },
-     "progress":"3%"
+     "progress":3
       
     },
     {
@@ -103,7 +103,7 @@
         "medium":"https://randomuser.me/api/portraits/med/men/26.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/men/26.jpg"
       },
-     "progress":"79%"
+     "progress":79
     },
     {
       "id": 9,
@@ -115,7 +115,7 @@
         "medium":"https://randomuser.me/api/portraits/med/women/38.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/women/38.jpg"
       },
-      "progress":"28%"
+      "progress":28
     },
     {
       "id": 10,
@@ -127,7 +127,7 @@
         "medium":"https://randomuser.me/api/portraits/med/men/42.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/men/42.jpg"
       },
-      "progress":"20%"
+      "progress":20
     
       
     }

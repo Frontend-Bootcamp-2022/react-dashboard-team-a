@@ -1,11 +1,11 @@
 
 
 
-function Percent(){
+function Percent(props){
 
     return (
 
-        <span className="precent">58%</span>
+        <span className="precent">{props.percent}%</span>
 
     )
 

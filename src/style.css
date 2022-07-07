@@ -50,7 +50,6 @@
     right: 80.4%;
     top: 36px;
     bottom: 60%;
-
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 13px;
@@ -61,22 +60,24 @@
   
 }
 .card-info{
-
+position: relative;
+bottom: 20px;
+}
+.card-info-2{
+    position: relative;
+top:20px;
 }
 
 .status{
     position: relative;
     left: 34.34%;
     right: 58.59%;
-
     bottom: 25.7px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 14px;
-
     color: #717986;
 }
 
@@ -132,12 +133,20 @@
     font-weight: 500;
 }
 
+/*         Progress Section        */
+
 .card-progress{
     position: relative;
-bottom: 90px;
+bottom: 58px;
 margin: 10px;
 background: ;
 
+}
+.card-progress-2{
+    position: relative;
+    bottom: 90px;
+    margin: 10px;
+    background: ;
 }
 
 .progress-bar-empty{
@@ -146,7 +155,6 @@ background: ;
     height: 8px;
     border-radius: 75px;
     top: 8px;
-
 }
 
 .progress-bar{
@@ -156,8 +164,64 @@ background: ;
     background: #1BE3A7;
     border-radius: 75px;
 }
+.progress-bar-67{
+    position: relative;
+    width: 314px;
+    height: 8px;
+    background: #1BE3A7;
+    border-radius: 75px;
+}
+.progress-bar-0{
+    position: relative;
+    width: 0;
+    height: 8px;
+    background: #1BE3A7;
+    border-radius: 75px;
+}
+.progress-bar-32{
+    position: relative;
+    width: 156px;
+    height: 8px;
+    background: #1BE3A7;
+    border-radius: 75px;
+}
+.progress-bar-7{
+    position: relative;
+    width: 68px;
+    height: 8px;
+    background: #1BE3A7;
+    border-radius: 75px;
+}
+.progress-bar-97{
+    position: relative;
+    width: 409px;
+    height: 8px;
+    background: #1BE3A7;
+    border-radius: 75px;
+}
+.progress-bar-3{
+    position: relative;
+    width: 26px;
+    height: 8px;
+    background: #1BE3A7;
+    border-radius: 75px;
+}
+.progress-bar-79{
+    position: relative;
+    width: 283px;
+    height: 8px;
+    background: #1BE3A7;
+    border-radius: 75px;
+}
+.progress-bar-28{
+    position: relative;
+    width: 115px;
+    height: 8px;
+    background: #1BE3A7;
+    border-radius: 75px;
+}
 .progress-text{
-width: 53px;
+width: 26px;
 height: 15px;
 position: relative;
 top: 20px;
@@ -165,9 +229,9 @@ font-family: 'Roboto';
 font-weight: 500;
 font-size: 13px;
 line-height: 15px;
-
 color: #717986;
 }
+
 .precent{
 position: relative;
 left: 363px;
@@ -178,7 +242,7 @@ left: 363px;
     width: 148px;
     height: 70px;
     left: 300px;
-    bottom: 100px;
+    bottom: 65px;
     display: flex;
     flex-direction: row;
     justify-content: center;
