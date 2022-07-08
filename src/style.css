@@ -27,7 +27,16 @@
     top: 8%;
     bottom: 85%;
 }
-
+.dot-menu{
+    position: relative;
+    left: 470px;
+    bottom: 220px;
+}
+.dot-menu-onhold{
+    position: relative;
+    left: 470px;
+    bottom: 250px;
+}
 .started{
     position: relative;
     width: 39px;
@@ -80,13 +89,42 @@ top:20px;
     line-height: 14px;
     color: #717986;
 }
-
+.status-dot{
+    position: relative;
+    width: 8px;
+height: 8px;
+left: 28px;
+bottom: 80px;
+border-radius: 50px;
+background: #FF285C;
+}
+.status-dot-onhold{
+    position: relative;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    left: 34.7%;
+    right: 64.04%;
+   
+    bottom: 24.2px;
+    
+    background: #F0BB00;
+}
+.status-dot-active{
+    position: relative;
+    width: 8px;
+height: 8px;
+left: 28px;
+bottom: 80px;
+border-radius: 50px;
+background: #03eb7f;;
+}
 .on-hold{
     position: relative;
-    left: 31.34%;
+    left: 38.00%;
     right: 64.04%;
     top: 36.33%;
-    bottom: 27.5px;
+    bottom: 46.8px;
     color: #F0BB00;
 
     font-family: 'Roboto';
@@ -97,7 +135,8 @@ top:20px;
 }
 .active{
     position: relative;
-    bottom: 70px;
+    left: 44px;
+    bottom: 102px;
     color: #03eb7f;
     font-family: 'Roboto';
     font-style: normal;
@@ -108,7 +147,8 @@ top:20px;
 
 .inactive{
     position: relative;
-    bottom: 70px;
+    left: 44px;
+    bottom: 102px;
     color: #eb1303;
     font-family: 'Roboto';
     font-style: normal;
@@ -137,14 +177,14 @@ top:20px;
 
 .card-progress{
     position: relative;
-bottom: 58px;
+bottom: 90px;
 margin: 10px;
 background: ;
 
 }
 .card-progress-2{
     position: relative;
-    bottom: 90px;
+    bottom: 120px;
     margin: 10px;
     background: ;
 }
@@ -234,15 +274,27 @@ color: #717986;
 
 .precent{
 position: relative;
-left: 363px;
+left: 362.5px;
 }
 
 .card-data{
     position: relative;
     width: 148px;
     height: 70px;
-    left: 300px;
-    bottom: 65px;
+    left: 310px;
+    bottom: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #F9F9F9;;
+    border-radius: 7px;
+}
+.card-data-onhold{
+    position: relative;
+    width: 148px;
+    height: 70px;
+    left: 310px;
+    bottom: 120px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -276,7 +328,7 @@ left: 363px;
 .vertical-line{
     position: relative;
     width: 2px;
-height: 45px;
-top: 12px;
-background-color:  #CDDCEE;
+    height: 45px;
+    top: 12px;
+    background-color:  #CDDCEE;
 }
