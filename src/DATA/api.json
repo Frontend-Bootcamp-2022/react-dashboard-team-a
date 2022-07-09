@@ -4,6 +4,7 @@
       "status":"Active",
       "tasks":14,
       "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
       "picture":{
         "large":"https://randomuser.me/api/portraits/women/38.jpg",
         "medium":"https://randomuser.me/api/portraits/med/women/38.jpg",
@@ -17,6 +18,7 @@
       "status":"On Hold",
       "tasks":14 ,
       "users":1,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg"],
       "picture":{
         "large":"https://randomuser.me/api/portraits/men/51.jpg",
         "medium":"https://randomuser.me/api/portraits/med/men/51.jpg",
@@ -31,6 +33,7 @@
       "status":"Inactive",
       "tasks":14,
       "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
       "picture":{
         "large":"https://randomuser.me/api/portraits/men/53.jpg",
         "medium":"https://randomuser.me/api/portraits/med/men/53.jpg",
@@ -45,6 +48,7 @@
       "status":"Active",
       "tasks":7,
       "users":8,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg"],
       "picture":{
         "large":"https://randomuser.me/api/portraits/women/37.jpg",
         "medium":"https://randomuser.me/api/portraits/med/women/37.jpg",
@@ -59,6 +63,7 @@
       "status":"On Hold",
       "tasks":14,
       "users":1,
+      "members":["https://randomuser.me/api/portraits/med/men/51.jpg"],
       "picture":{
         "large":"https://randomuser.me/api/portraits/women/61.jpg",
         "medium":"https://randomuser.me/api/portraits/med/women/61.jpg",
@@ -73,6 +78,7 @@
       "status":"Active",
       "tasks":14 ,
       "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
       "picture":{
         "large":"https://randomuser.me/api/portraits/women/42.jpg",
         "medium":"https://randomuser.me/api/portraits/med/women/42.jpg",
@@ -85,6 +91,7 @@
       "status":"Active",
       "tasks":14,
       "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
       "picture":{
         "large":"https://randomuser.me/api/portraits/men/97.jpg",
         "medium":"https://randomuser.me/api/portraits/med/men/97.jpg",
@@ -98,6 +105,7 @@
       "status":"Active",
       "tasks":14,
       "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
       "picture":{
         "large":"https://randomuser.me/api/portraits/men/26.jpg",
         "medium":"https://randomuser.me/api/portraits/med/men/26.jpg",
@@ -110,25 +118,13 @@
       "status":"Active",
       "tasks":14,
       "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
       "picture":{
         "large":"https://randomuser.me/api/portraits/women/38.jpg",
         "medium":"https://randomuser.me/api/portraits/med/women/38.jpg",
         "thumbnail":"https://randomuser.me/api/portraits/thumb/women/38.jpg"
       },
       "progress":28
-    },
-    {
-      "id": 10,
-      "status":"On Hold",
-      "tasks":10,
-      "users":4,
-      "picture":{
-        "large":"https://randomuser.me/api/portraits/men/42.jpg",
-        "medium":"https://randomuser.me/api/portraits/med/men/42.jpg",
-        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/42.jpg"
-      },
-      "progress":20
-    
-      
     }
+    
   ]

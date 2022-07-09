@@ -92,11 +92,11 @@ top:20px;
 .status-dot{
     position: relative;
     width: 8px;
-height: 8px;
-left: 28px;
-bottom: 80px;
-border-radius: 50px;
-background: #FF285C;
+    height: 8px;
+    left: 28px;
+    bottom: 80px;
+    border-radius: 50px;
+    background: #FF285C;
 }
 .status-dot-onhold{
     position: relative;
@@ -105,9 +105,7 @@ background: #FF285C;
     border-radius: 50px;
     left: 34.7%;
     right: 64.04%;
-   
     bottom: 24.2px;
-    
     background: #F0BB00;
 }
 .status-dot-active{
@@ -156,12 +154,34 @@ background: #03eb7f;;
     font-size: 13px;
     line-height: 15px;
 }
+/* Members Section */
+.members-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
 
+color: #717986;
+}
+.member-text-onhold{
+    position: relative;
+    bottom: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    
+    color: #717986;
+    }
 .card-members{
     position: relative;
+    bottom:10.5px;
+    left: 25px;
     width: 32px;
     height: 32px;
-    top: 30px;
+    align-items: center;
     margin: 10px;
     border-radius:20px ;
     border: 1px solid #8B8B8B;
@@ -172,6 +192,47 @@ background: #03eb7f;;
     color: #8B8B8B;
     font-weight: 500;
 }
+.card-members-onhold{
+    position: relative;
+    bottom:50.5px;
+    left: 25px;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    margin: 10px;
+    border-radius:20px ;
+    border: 1px solid #8B8B8B;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #8B8B8B;
+    font-weight: 500;
+}
+.members-section{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 33px;
+    height: 10px;
+}
+.member-icons{
+    position: relative;
+    left: 29px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.member-icons-onhold{
+    position: relative;
+    bottom: 40px;
+    left: 29px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
 
 /*         Progress Section        */
 
@@ -180,13 +241,14 @@ background: #03eb7f;;
 bottom: 90px;
 margin: 10px;
 background: ;
+left: 14px;
 
 }
 .card-progress-2{
     position: relative;
     bottom: 120px;
     margin: 10px;
-    background: ;
+    left: 14px;
 }
 
 .progress-bar-empty{
