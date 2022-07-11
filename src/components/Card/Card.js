@@ -22,12 +22,13 @@ function Card(props){
         <div className="card">
             <CardInfo date={props.date} status={props.status} tasks={props.tasks}
             users={props.users}/>
+
             <img src={require("./Icons/Vector.png")} className={dotMenu}></img>
+
             <div className={progressBar}>
 
             <h2 className={memberText}>Members</h2>
            <div className="members-section">
-            
              {props.members.map((x) =>(
             <img src={x} className={memberIcons}></img>
             
@@ -37,10 +38,10 @@ function Card(props){
            
            
                 <h4 className="progress-text">Progress<Percent percent={props.percent}/></h4>
-                <div className="progress-bar-empty"></div>
+                <div className="progress-bar-empty">
                 
                 <ProgressBar percent={props.percent}/>
-
+                </div>
             </div>
         </div>
     )

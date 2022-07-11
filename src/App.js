@@ -13,7 +13,6 @@ console.log(DATA.status)
 const App = () => {
   return (
     <div>
-       <h1>React Dashboard</h1>
       {DATA.map((x) =>(
         <Card date={date} status={x.status} percent={x.progress} 
         tasks={x.tasks} users={x.users} members={x.members}/>

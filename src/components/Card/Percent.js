@@ -5,7 +5,7 @@ function Percent(props){
 
     return (
 
-        <span className="precent">{props.percent}%</span>
+        <span className="precent">{props.percent}</span>
 
     )
 

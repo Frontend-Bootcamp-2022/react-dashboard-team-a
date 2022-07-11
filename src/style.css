@@ -17,21 +17,22 @@
     color: #3C557A;
    font-family: 'Roboto';
    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
-
     line-height: 21px;
     position: relative;
     left: 4.85%;
     right: 58.38%;
     top: 8%;
     bottom: 85%;
+    width: 300px;
 }
+
 .dot-menu{
     position: relative;
     left: 470px;
     bottom: 220px;
 }
+
 .dot-menu-onhold{
     position: relative;
     left: 470px;
@@ -63,20 +64,19 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 15px;
-
     color: #717986;
-
-  
 }
 .card-info{
 position: relative;
 bottom: 20px;
+
 }
 .card-info-2{
     position: relative;
-top:20px;
+    top:20px;
 }
 
+/* Status Info Section */
 .status{
     position: relative;
     left: 34.34%;
@@ -88,6 +88,7 @@ top:20px;
     font-size: 13px;
     line-height: 14px;
     color: #717986;
+    width: 70px;
 }
 .status-dot{
     position: relative;
@@ -124,7 +125,7 @@ background: #03eb7f;;
     top: 36.33%;
     bottom: 46.8px;
     color: #F0BB00;
-
+    width: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -141,6 +142,7 @@ background: #03eb7f;;
     font-weight: 600;
     font-size: 13px;
     line-height: 15px;
+    width: 50px;
 }
 
 .inactive{
@@ -153,17 +155,21 @@ background: #03eb7f;;
     font-weight: 600;
     font-size: 13px;
     line-height: 15px;
+    width: 50px;
 }
+
 /* Members Section */
+
 .members-text{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 font-size: 13px;
 line-height: 15px;
-
 color: #717986;
+width: 100px;
 }
+
 .member-text-onhold{
     position: relative;
     bottom: 40px;
@@ -172,16 +178,16 @@ color: #717986;
     font-weight: bold;
     font-size: 13px;
     line-height: 15px;
-    
+    width: 100px;
     color: #717986;
-    }
+}
+
 .card-members{
     position: relative;
     bottom:10.5px;
     left: 25px;
     width: 32px;
     height: 32px;
-    align-items: center;
     margin: 10px;
     border-radius:20px ;
     border: 1px solid #8B8B8B;
@@ -190,7 +196,6 @@ color: #717986;
     justify-content: center;
     font-size: 30px;
     color: #8B8B8B;
-    font-weight: 500;
 }
 .card-members-onhold{
     position: relative;
@@ -198,7 +203,6 @@ color: #717986;
     left: 25px;
     width: 32px;
     height: 32px;
-    align-items: center;
     margin: 10px;
     border-radius:20px ;
     border: 1px solid #8B8B8B;
@@ -207,7 +211,6 @@ color: #717986;
     justify-content: center;
     font-size: 30px;
     color: #8B8B8B;
-    font-weight: 500;
 }
 .members-section{
     display: flex;
@@ -215,6 +218,7 @@ color: #717986;
     position: relative;
     right: 33px;
     height: 10px;
+    width: 250px;
 }
 .member-icons{
     position: relative;
@@ -222,7 +226,7 @@ color: #717986;
     width: 32px;
     height: 32px;
     border-radius: 50px;
-    margin-left: 5px;
+    margin-left: 3px;
 }
 .member-icons-onhold{
     position: relative;
@@ -242,6 +246,7 @@ bottom: 90px;
 margin: 10px;
 background: ;
 left: 14px;
+width: 0;
 
 }
 .card-progress-2{
@@ -249,6 +254,7 @@ left: 14px;
     bottom: 120px;
     margin: 10px;
     left: 14px;
+    width: 0;
 }
 
 .progress-bar-empty{
@@ -256,79 +262,23 @@ left: 14px;
     width: 439px;
     height: 8px;
     border-radius: 75px;
+    background-color: #F1F2F7;;
     top: 8px;
 }
 
 .progress-bar{
     position: relative;
-    width: 314px;
     height: 8px;
     background: #1BE3A7;
     border-radius: 75px;
 }
-.progress-bar-67{
-    position: relative;
-    width: 314px;
-    height: 8px;
-    background: #1BE3A7;
-    border-radius: 75px;
-}
-.progress-bar-0{
-    position: relative;
-    width: 0;
-    height: 8px;
-    background: #1BE3A7;
-    border-radius: 75px;
-}
-.progress-bar-32{
-    position: relative;
-    width: 156px;
-    height: 8px;
-    background: #1BE3A7;
-    border-radius: 75px;
-}
-.progress-bar-7{
-    position: relative;
-    width: 68px;
-    height: 8px;
-    background: #1BE3A7;
-    border-radius: 75px;
-}
-.progress-bar-97{
-    position: relative;
-    width: 409px;
-    height: 8px;
-    background: #1BE3A7;
-    border-radius: 75px;
-}
-.progress-bar-3{
-    position: relative;
-    width: 26px;
-    height: 8px;
-    background: #1BE3A7;
-    border-radius: 75px;
-}
-.progress-bar-79{
-    position: relative;
-    width: 283px;
-    height: 8px;
-    background: #1BE3A7;
-    border-radius: 75px;
-}
-.progress-bar-28{
-    position: relative;
-    width: 115px;
-    height: 8px;
-    background: #1BE3A7;
-    border-radius: 75px;
-}
+
 .progress-text{
 width: 26px;
 height: 15px;
 position: relative;
 top: 20px;
 font-family: 'Roboto';
-font-weight: 500;
 font-size: 13px;
 line-height: 15px;
 color: #717986;
@@ -339,6 +289,7 @@ position: relative;
 left: 362.5px;
 }
 
+/* Card Data (Task and Users) Section */
 .card-data{
     position: relative;
     width: 148px;
