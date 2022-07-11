@@ -1,6 +1,8 @@
 import CardInfo from "./CardInfo";
 import ProgressBar from "./ProgressBar";
 import Percent from "./Percent";
+import Members from "./Members";
+import BottomWrapper from "./BottomWrapper";
 
 function Card(props){
     let dotMenu="dot-menu"
@@ -21,28 +23,13 @@ function Card(props){
     return (
         <div className="card">
             <CardInfo date={props.date} status={props.status} tasks={props.tasks}
-            users={props.users}/>
+            users={props.users} title={props.title}/>
 
             <img src={require("./Icons/Vector.png")} className={dotMenu}></img>
-
-            <div className={progressBar}>
-
-            <h2 className={memberText}>Members</h2>
-           <div className="members-section">
-             {props.members.map((x) =>(
-            <img src={x} className={memberIcons}></img>
             
-            ) )}<div className={cardMembers}>+</div>
-            
-            </div>
+            <BottomWrapper progressBar={progressBar} memberText={memberText} members={props.members}
+            memberIcons={memberIcons} cardMembers={cardMembers} percent={props.percent}/>
            
-           
-                <h4 className="progress-text">Progress<Percent percent={props.percent}/></h4>
-                <div className="progress-bar-empty">
-                
-                <ProgressBar percent={props.percent}/>
-                </div>
-            </div>
         </div>
     )
 

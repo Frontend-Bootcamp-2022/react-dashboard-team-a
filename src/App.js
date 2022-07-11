@@ -1,26 +1,21 @@
 import Card from "./components/Card/Card"
 import DATA from "./DATA/api.json"
-import "./style.css"
+import "./card.css"
 import "./fonts/Roboto-Regular.ttf"
 
-
-
 let date = new Date().toLocaleDateString('en-us', { day:"numeric", month:"long", year:"numeric" })
-console.log(DATA.status)
-
-
 
 const App = () => {
   return (
     <div>
-      {DATA.map((x) =>(
-        <Card date={date} status={x.status} percent={x.progress} 
-        tasks={x.tasks} users={x.users} members={x.members}/>
+      {DATA.map((card) =>(
+        <Card date={date} status={card.status} percent={card.progress} 
+        tasks={card.tasks} users={card.users} members={card.members} title={card.title}/>
       ) )}
      
     </div>
    
-  );
+  )
 }
 
 export default App;

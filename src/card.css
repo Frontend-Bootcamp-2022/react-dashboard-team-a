@@ -14,6 +14,7 @@
 }
 
 .card-heading{
+    position: relative;
     color: #3C557A;
    font-family: 'Roboto';
    font-style: normal;
@@ -22,21 +23,20 @@
     position: relative;
     left: 4.85%;
     right: 58.38%;
-    top: 8%;
-    bottom: 85%;
+    bottom: -5px;
     width: 300px;
 }
 
 .dot-menu{
     position: relative;
     left: 470px;
-    bottom: 220px;
+    bottom: 215px;
 }
 
 .dot-menu-onhold{
     position: relative;
     left: 470px;
-    bottom: 250px;
+    bottom: 247px;
 }
 .started{
     position: relative;
@@ -219,6 +219,9 @@ width: 100px;
     right: 33px;
     height: 10px;
     width: 250px;
+    top: 5px;
+    margin-bottom: 25px;
+    
 }
 .member-icons{
     position: relative;
@@ -241,8 +244,8 @@ width: 100px;
 /*         Progress Section        */
 
 .card-progress{
-    position: relative;
-bottom: 90px;
+position: relative;
+bottom: 85px;
 margin: 10px;
 background: ;
 left: 14px;
@@ -251,7 +254,7 @@ width: 0;
 }
 .card-progress-2{
     position: relative;
-    bottom: 120px;
+    bottom: 115px;
     margin: 10px;
     left: 14px;
     width: 0;
@@ -274,7 +277,7 @@ width: 0;
 }
 
 .progress-text{
-width: 26px;
+width: 438px;
 height: 15px;
 position: relative;
 top: 20px;
@@ -285,8 +288,10 @@ color: #717986;
 }
 
 .precent{
+    display: flex;
 position: relative;
-left: 362.5px;
+justify-content: flex-end;
+bottom: 15px;
 }
 
 /* Card Data (Task and Users) Section */
@@ -307,7 +312,7 @@ left: 362.5px;
     width: 148px;
     height: 70px;
     left: 310px;
-    bottom: 120px;
+    bottom: 115px;
     display: flex;
     flex-direction: row;
     justify-content: center;
