@@ -19,14 +19,6 @@ body {
   height: 100%;
 }
 
-.content {
-  width: calc(100% - 50px);
-  margin-left: auto;
-  padding: 15px;
-  height: 100%;
-  word-break: break-word;
-}
-
 .sidebar {
   position: fixed;
   top: 0;
@@ -105,12 +97,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   padding-bottom: 20px;
 }
 
 .sidebarTopBox .sidebarLogoBox svg:nth-child(2) {
-  display: grid;
   position: absolute;
   left: 52px;
   top: 58px;
