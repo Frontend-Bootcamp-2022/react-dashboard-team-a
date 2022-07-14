@@ -3,8 +3,10 @@ import ProgressBar from "./ProgressBar";
 import Percent from "./Percent";
 import Members from "./Members";
 import BottomWrapper from "./BottomWrapper";
+import "./card.css"
 
 function Card(props){
+    let editButton="edit-btn"
     let dotMenu="dot-menu"
     let progressBar =""
     let memberIcons="member-icons"
@@ -18,6 +20,7 @@ function Card(props){
         memberIcons="member-icons-onhold"
         memberText="member-text-onhold"
         cardMembers="card-members-onhold"
+        editButton = "edit-btn-onhold"
     }
 
     return (
@@ -26,6 +29,7 @@ function Card(props){
             users={props.users} title={props.title}/>
 
             <img src={require("./Icons/Vector.png")} className={dotMenu}></img>
+            <img src={require("./Icons/Edit.png")} className={editButton}></img>
             
             <BottomWrapper progressBar={progressBar} memberText={memberText} members={props.members}
             memberIcons={memberIcons} cardMembers={cardMembers} percent={props.percent}/>

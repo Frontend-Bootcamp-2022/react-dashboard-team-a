@@ -1,7 +1,7 @@
 import Card from "./components/Card/Card"
 import DATA from "./DATA/api.json"
-import "./card.css"
-import "./fonts/Roboto-Regular.ttf"
+
+
 
 let date = new Date().toLocaleDateString('en-us', { day:"numeric", month:"long", year:"numeric" })
 

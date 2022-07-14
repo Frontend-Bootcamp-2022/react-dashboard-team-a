@@ -1,18 +1,30 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('./fonts/Roboto-Regular.ttf');
+    src: url('../../fonts/Roboto-Regular.ttf'); 
 }
 
 .card{
+    position: relative;
+    top: 142px;
+    left: 330px;
     width: 495px;
     height: 300px;
     border-radius: 8px;
     background-color: ;
     border: 1px solid #E5E5E5;
     float: left;
-    margin: 10px;
+    margin-left: -20px;
+    transform: scale(0.9);
 }
-
+.card:hover{
+    box-shadow: 0px 0px 27px 1px #2e9dff56;
+}
+.card:hover .edit-btn{
+    display: inline;
+}
+.card:hover .edit-btn-onhold{
+    display: inline;
+}
 .card-heading{
     position: relative;
     color: #3C557A;
@@ -31,6 +43,19 @@
     position: relative;
     left: 470px;
     bottom: 215px;
+}
+.edit-btn{
+    position:relative;
+    left: 425px;
+    bottom: 216px;
+    display: none;
+}
+
+.edit-btn-onhold{
+    position:relative;
+    left: 425px;
+    bottom: 248px;
+    display: none;
 }
 
 .dot-menu-onhold{
