@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  background-color: #fff;
+  transition: width 0.3s ease;
+  border-right: 1px #d3d5d7 solid;
+  padding-top: 15px;
+}
+
+.sidebar .sidebarContentItem {
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  text-align: left;
+}
+
+.sidebar .sidebarContentItem:hover {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.sidebar svg {
+  color: #e84a5f;
+  min-width: 25px;
+}
+
+.sidebar .sidebarContentItem:hover svg path {
+  fill: #00db99;
+}
+
+.sidebar .sidebarContentItem:hover span {
+  color: #00db99;
+}
+
+.sidebar span {
+  width: 0;
+  height: 0;
+  padding: 0 15px;
+  transition: width 0.3s ease;
+  color: #959ba4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+}
+
+.sidebarOpen {
+  width: 300px;
+  padding: 30px;
+  transition: width 0.3s ease;
+}
+
+.sidebarOpen .sidebarContentItem span {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.trigger {
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.sidebarTopBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.sidebarTopBox .sidebarLogoBox svg:nth-child(2) {
+  position: absolute;
+  left: 52px;
+  top: 58px;
+}
+
+.sidebarTopClose {
+  padding-bottom: 20px;
+}
+
+.sidebarTopBox .sidebarContentItem span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.sidebarTopBox .sidebarContentItem:nth-child(1) {
+  display: flex;
+}
+
+.sidebarTopClose .sidebarContentItem:nth-child(1) {
+  display: none;
+}
+
+.sidebarBottomBox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 30px 100px 30px;
+  border-top: 1px solid #efeaea;
+}
+
+.sidebarBottomClose {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 0;
+}
+
+.sidebarBottomBox span {
+  color: #ff285c;
+}

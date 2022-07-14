@@ -1,7 +1,7 @@
+import Sidebar from "./components/Sidebar/Sidebar";
+
 const App = () => {
-  return (
-    <h1>React Dashboard</h1>
-  );
-}
+  return <Sidebar />;
+};
 
 export default App;
