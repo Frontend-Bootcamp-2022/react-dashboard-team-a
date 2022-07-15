@@ -1,9 +1,9 @@
 import HeaderBottom from "./HeaderBottom";
 import HeaderTop from "./HeaderTop";
 
-const Header = () => {
+const Header = ({isOpen}) => {
   return (
-    <div className="header">
+    <div className={`header ${isOpen ? "headerOpen" : ""}`}>
       <HeaderTop />
       <HeaderBottom />
     </div>

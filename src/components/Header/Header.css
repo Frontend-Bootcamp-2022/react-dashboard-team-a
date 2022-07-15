@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-left: 50px;
+}
+.headerOpen {
+  margin-left: 300px;
+  transition: width 0.3s ease;
 }
 
 .header-container {
