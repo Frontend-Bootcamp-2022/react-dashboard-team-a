@@ -1,8 +1,8 @@
 import { IconAdd, IconFilter } from "../../assets/icons";
 
-const HeaderBottom = () => {
+const CardTop = () => {
   return (
-    <div className="header-bottom">
+    <div className="cardTop">
       <div className="btn-secondary-container">
         <button className="btn-active">
           <span>
@@ -31,4 +31,4 @@ const HeaderBottom = () => {
   );
 };
 
-export default HeaderBottom;
+export default CardTop;
