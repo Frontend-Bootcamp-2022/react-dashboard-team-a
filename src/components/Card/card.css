@@ -5,17 +5,41 @@
 
 .card{
     position: relative;
-    top: 142px;
-    left: 330px;
+    top: 30px;
     width: 495px;
     height: 300px;
     border-radius: 8px;
     background-color: ;
     border: 1px solid #E5E5E5;
     float: left;
-    margin-left: -20px;
-    transform: scale(0.9);
+    margin-right: 0;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
+.cardClose{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    width: 495px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: ;
+    border: 1px solid #E5E5E5;
+    float: left;
+    margin-left: 25px;
+    margin-right: 104px;
+    margin-bottom: 25px;
+    transform: scale(1);
+    
+}
+.cards{
+    margin-left: 30px;
+    transition: width 0.3s ease;
+}
+.cardOpen {
+    margin-left: 300px;
+    transition: width 0.3s ease;
+  }
 .card:hover{
     box-shadow: 0px 0px 27px 1px #2e9dff56;
 }

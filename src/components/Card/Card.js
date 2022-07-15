@@ -24,7 +24,7 @@ function Card(props){
     }
 
     return (
-        <div className="card">
+        <div className={`${props.isOpen ? "card" : "cardClose"}`}>
             <CardInfo date={props.date} status={props.status} tasks={props.tasks}
             users={props.users} title={props.title}/>
 
