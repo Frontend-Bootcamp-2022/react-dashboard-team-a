@@ -1,0 +1,139 @@
+[
+    {
+      "id": 1,
+      "title":"Project Title goes here",
+      "status":"Active",
+      "tasks":14,
+      "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/women/38.jpg",
+        "medium":"https://randomuser.me/api/portraits/med/women/38.jpg",
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/38.jpg"
+      },
+      "progress":"67%"
+      },
+    {
+
+      "id": 2,
+      "title":"Project Title goes here",
+      "status":"On Hold",
+      "tasks":14 ,
+      "users":1,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg"],
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/men/51.jpg",
+        "medium":"https://randomuser.me/api/portraits/med/men/51.jpg",
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/51.jpg"
+      },
+      "progress":"0%"
+
+    },
+    {
+
+      "id": 3,
+      "title":"Project Title goes here",
+      "status":"Inactive",
+      "tasks":14,
+      "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/men/53.jpg",
+        "medium":"https://randomuser.me/api/portraits/med/men/53.jpg",
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/53.jpg"
+      },
+      "progress":"32%"
+      
+    },
+    {
+
+      "id": 4,
+      "title":"Project Title goes here",
+      "status":"Active",
+      "tasks":7,
+      "users":8,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg"],
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/women/37.jpg",
+        "medium":"https://randomuser.me/api/portraits/med/women/37.jpg",
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/37.jpg"
+      },
+    "progress":"7%"
+     
+    },
+    {
+
+      "id": 5,
+      "title":"Project Title goes here",
+      "status":"On Hold",
+      "tasks":14,
+      "users":1,
+      "members":["https://randomuser.me/api/portraits/med/men/51.jpg"],
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/women/61.jpg",
+        "medium":"https://randomuser.me/api/portraits/med/women/61.jpg",
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/61.jpg"
+      },
+      "progress":"0%"
+      
+     
+    },
+    {
+      "id": 6,
+      "title":"Project Title goes here",
+      "status":"Active",
+      "tasks":14 ,
+      "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/women/42.jpg",
+        "medium":"https://randomuser.me/api/portraits/med/women/42.jpg",
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/42.jpg"
+      },
+     "progress":"97%"
+    },
+    {
+      "id": 7,
+      "title":"Project Title goes here",
+      "status":"Active",
+      "tasks":14,
+      "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/men/97.jpg",
+        "medium":"https://randomuser.me/api/portraits/med/men/97.jpg",
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/97.jpg"
+      },
+     "progress":"3%"
+      
+    },
+    {
+      "id": 8,
+      "title":"Project Title goes here",
+      "status":"Active",
+      "tasks":14,
+      "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/men/26.jpg",
+        "medium":"https://randomuser.me/api/portraits/med/men/26.jpg",
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/men/26.jpg"
+      },
+     "progress":"79%"
+    },
+    {
+      "id": 9,
+      "title":"Project Title goes here",
+      "status":"Active",
+      "tasks":14,
+      "users":4,
+      "members":["https://randomuser.me/api/portraits/med/women/38.jpg","https://randomuser.me/api/portraits/med/men/51.jpg","https://randomuser.me/api/portraits/med/men/53.jpg","https://randomuser.me/api/portraits/med/women/37.jpg"],
+      "picture":{
+        "large":"https://randomuser.me/api/portraits/women/38.jpg",
+        "medium":"https://randomuser.me/api/portraits/med/women/38.jpg",
+        "thumbnail":"https://randomuser.me/api/portraits/thumb/women/38.jpg"
+      },
+      "progress":"28%"
+    }
+    
+  ]
