@@ -1,4 +1,4 @@
-import { IconAdd, IconFilter } from "../../assets/icons";
+import { IconAdd, IconFilter, IconSearch } from "../../assets/icons";
 
 const CardTop = () => {
   return (
@@ -20,6 +20,10 @@ const CardTop = () => {
           <a href="#">On Hold</a>
           <a href="#">Completed</a>
         </div>
+      </div>
+      <div className="search-bar" id="display-hidden">
+        <IconSearch />
+        <input type="text" placeholder="Search" className="search-input" />
       </div>
       <div className="link-box-right">
         <a href="#">Default</a>
