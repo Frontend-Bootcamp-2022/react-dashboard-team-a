@@ -1,12 +1,11 @@
-import {
-  IconDashboard,
-  IconLogOut,
-  IconMembers,
-  IconModules,
-  IconProjects,
-  IconReports,
-  IconSprint,
-} from "../icons/index";
+import {IconDashboard} from "../Icons/IconDashboard";
+import {IconLogOut} from "../Icons/IconLogOut";
+import {IconMembers} from "../Icons/IconMembers";
+import {IconModules} from "../Icons/IconModules";
+import {IconProjects} from "../Icons/IconProject";
+import {IconReports} from "../Icons/IconReports";
+import {IconSprint} from "../Icons/IconSprint";
+
 
 const sidebarNavItems = [
   {

@@ -1,5 +1,5 @@
 import React from "react";
-import { IconLogOut } from "../../../assets/icons";
+import { IconLogOut } from "../Icons/IconLogOut";
 function SidebarBottom({ isOpen }) {
   return (
     <div className={` ${isOpen ? "sidebarBottomBox" : "sidebarBottomClose"}`}>

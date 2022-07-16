@@ -1,9 +1,8 @@
-import {
-  IconChat,
-  IconNotificaiton,
-  IconSearch,
-  IconSettings,
-} from "../../assets/icons";
+import { IconChat } from "../Icons/IconChat";
+import { IconNotificaiton } from "../Icons/IconNotification";
+import { IconSearch } from "../Icons/IconSearch";
+import { IconSettings } from "../Icons/IconSettings";
+
 import "./Header.css";
 import profilePhoto from "../../assets/images/Profile.jpg";
 

@@ -1,6 +1,7 @@
 import React from "react";
-import { LogoIconGreen, LogoIconBlue, IconHide } from "../../../assets/icons";
-
+import { LogoIconGreen } from "../Icons/LogoIconGreen";
+import {  LogoIconBlue,  } from "../Icons/LogIconBlue";
+import { IconHide } from "../Icons/IconHide";
 function SidebarTop({ isOpen, handleTrigger }) {
   return (
     <div className={` ${isOpen ? "sidebarTopBox" : "sidebarTopClose"}`}>

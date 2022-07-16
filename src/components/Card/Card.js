@@ -28,8 +28,8 @@ function Card(props){
             <CardInfo date={props.date} status={props.status} tasks={props.tasks}
             users={props.users} title={props.title}/>
 
-            <img src={require("./Icons/Vector.png")} className={dotMenu}></img>
-            <img src={require("./Icons/Edit.png")} className={editButton}></img>
+            <img src={require("../Icons/Vector.png")} className={dotMenu}></img>
+            <img src={require("../Icons/Edit.png")} className={editButton}></img>
             
             <BottomWrapper progressBar={progressBar} memberText={memberText} members={props.members}
             memberIcons={memberIcons} cardMembers={cardMembers} percent={props.percent}/>

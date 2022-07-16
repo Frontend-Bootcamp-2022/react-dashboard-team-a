@@ -1,5 +1,6 @@
-import { IconAdd, IconFilter, IconSearch } from "../../assets/icons";
-
+import { IconAdd } from "../Icons/IconAdd";
+import {  IconFilter } from "../Icons/IconFilter";
+import { IconSearch } from "../Icons/IconSearch";
 const CardTop = () => {
   return (
     <div className="cardTop">
