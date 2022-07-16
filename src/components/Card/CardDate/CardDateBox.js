@@ -1,5 +1,5 @@
-import Stats from "./Stats";
-import Data from "./Data";
+import Stats from "./CardDateStats";
+import Data from "./CardDateData";
 
 
 function Info(props){

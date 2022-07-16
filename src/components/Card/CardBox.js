@@ -1,8 +1,8 @@
 import CardInfo from "./CardInfo";
-import ProgressBar from "./ProgressBar";
-import Percent from "./Percent";
-import Members from "./Members";
-import BottomWrapper from "./BottomWrapper";
+import ProgressBar from "./CardBottom/CardBottomProgressBar";
+import Percent from "./CardBottom/CardBottomPercent";
+import Members from "./CardBottom/CardBottomMembers";
+import BottomWrapper from "./CardBottom/CardBottom";
 import "./card.css"
 
 function Card(props){

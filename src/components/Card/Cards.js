@@ -1,5 +1,5 @@
 import DATA from "../../DATA/api.json"
-import Card from "./Card"
+import Card from "./CardBox"
 import CardTop from "./CardTop";
 let date = new Date().toLocaleDateString('en-us', { day:"numeric", month:"long", year:"numeric" })
 function Cards({isOpen}){

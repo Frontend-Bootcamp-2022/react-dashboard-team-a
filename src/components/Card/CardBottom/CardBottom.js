@@ -1,6 +1,6 @@
-import Members from "./Members";
-import ProgressBar from "./ProgressBar";
-import Percent from "./Percent";
+import Members from "./CardBottomMembers";
+import ProgressBar from "./CardBottomProgressBar";
+import Percent from "./CardBottomPercent";
 
 function BottomWrapper(props){
     

@@ -1,4 +1,4 @@
-import Status from "./Status";
+import Status from "../CardStatus";
 
 
 function Stats(props){
